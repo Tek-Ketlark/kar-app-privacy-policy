@@ -2,7 +2,7 @@
 
 **Last updated:** February 4, 2026
 
-This Privacy Policy explains how **[App Name]** (“we”, “our”, “us”) collects, uses, and shares information when you use our mobile application (the “App”).
+This Privacy Policy explains how **Car** (“we”, “our”, “us”) collects, uses, and shares information when you use our mobile application (the “App”).
 
 ## 1) Information we collect
 
