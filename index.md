@@ -83,8 +83,8 @@ Depending on your location, you may have rights to access, update, or delete you
 ## 9) Contact us
 If you have questions about this Privacy Policy or data practices, contact:
 
-- **Email:** [tek@ketlark.com]  
-- **Developer / Company:** [Ketlark]  
+- **Email:** tek@ketlark.com  
+- **Developer / Company:** Ketlark
 
 ## 10) Changes to this policy
 We may update this Privacy Policy from time to time. We will update the “Last updated” date and may notify you in the App if changes are material.
