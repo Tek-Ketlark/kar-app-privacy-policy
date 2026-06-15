@@ -1,90 +1,107 @@
-# Privacy Policy
+# Política de Privacidad
 
-**Last updated:** February 4, 2026
+**Última actualización:** 15 de junio de 2026
 
-This Privacy Policy explains how **Car** (“we”, “our”, “us”) collects, uses, and shares information when you use our mobile application (the “App”).
+Esta Política de Privacidad explica cómo **Ketlark Car** ("nosotros") recolecta, usa y comparte información cuando usás nuestra aplicación móvil (la "App").
 
-## 1) Information we collect
+## 1) Información que recolectamos
 
-Depending on how you use the App, we may collect:
+Según cómo uses la App, podemos recolectar:
 
-### A. Audio / Microphone (RECORD_AUDIO)
-If you use features that require recording audio (for example, voice messages, voice notes, or voice input), the App will request access to your microphone. Audio is recorded **only when you actively use** the feature (for example, when you press a record button).
-- We do not record audio in the background without your action.
+### A. Audio / Micrófono
+Si usás funciones que requieren grabar audio (por ejemplo, hablar con el asistente de voz), la App pedirá acceso a tu micrófono. El audio se graba **solo cuando usás activamente** la función (por ejemplo, cuando mantenés presionado el botón para hablar) y se envía a nuestros servicios para generar la respuesta del asistente.
+- No grabamos audio en segundo plano sin tu acción.
 
-### B. Location (ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION)
-If you enable location-based features, the App may request access to your device location:
-- **Approximate location** (coarse)
-- **Precise location** (fine)
+### B. Ubicación
+Si habilitás funciones basadas en ubicación, la App puede pedir acceso a la ubicación de tu dispositivo:
+- **Ubicación aproximada**
+- **Ubicación precisa**
 
-We use location only to provide location-related functionality in the App (for example, showing nearby results or improving location-based experience, depending on your features).
+Usamos la ubicación únicamente para brindar funcionalidades relacionadas con tu ubicación dentro de la App (por ejemplo, rutas y asistencia contextual).
 
-### C. Bluetooth (BLUETOOTH_SCAN, BLUETOOTH_CONNECT)
-If you enable Bluetooth-related features, the App may request Bluetooth permissions to:
-- scan for nearby Bluetooth devices
-- connect to Bluetooth devices
+### C. Bluetooth
+Si habilitás funciones que usan Bluetooth, la App puede pedir permisos de Bluetooth para:
+- buscar dispositivos Bluetooth cercanos
+- conectarse a dispositivos Bluetooth compatibles
 
-We use Bluetooth access only to provide Bluetooth functionality inside the App (for example, discovering or connecting to supported devices).
+Usamos el acceso a Bluetooth solo para brindar la funcionalidad correspondiente dentro de la App.
 
-### D. App diagnostics
-We may collect technical information to keep the App working correctly, such as:
-- crash reports and error logs
-- device and OS information (model, version)
-- app version and performance data
+### D. Notificaciones push e identificadores
+Para enviarte notificaciones, la App utiliza **Firebase Cloud Messaging** (de Google), que genera un **token de notificaciones** asociado a tu dispositivo. También usamos un **identificador de usuario** para vincular las notificaciones y la actividad a tu cuenta.
 
-### E. Account / user-provided information (optional)
-If the App allows accounts or user input, we may collect information you provide such as:
-- name, email, phone number, or other profile details
-- content you submit within the App
+### E. Datos de diagnóstico
+Podemos recolectar información técnica para mantener la App funcionando correctamente, como:
+- informes de fallas (crashes) y registros de errores
+- información del dispositivo y del sistema operativo (modelo, versión)
+- versión de la App y datos de rendimiento
 
-### F. Usage analytics (optional)
-If enabled, we may collect basic usage events (for example, screens visited, feature usage) to improve the App.
+### F. Cuenta / información que vos proporcionás
+Si creás una cuenta o ingresás datos, podemos recolectar la información que nos proporciones, como:
+- nombre, correo electrónico, teléfono u otros datos de perfil
+- contenido que envías dentro de la App
 
-## 2) How we use information
-We use the collected information to:
-- provide and operate the App and its features
-- enable audio, location, and Bluetooth features when you choose to use them
-- debug issues, prevent fraud, and improve stability and performance
-- improve the App’s user experience and features
-- comply with legal obligations
+## 2) Cómo usamos la información
 
-## 3) How we share information
-We do not sell your personal data.
+Usamos la información recolectada para:
+- proveer y operar la App y sus funciones (asistente de voz, historial de conversaciones)
+- habilitar las funciones de audio, ubicación y Bluetooth cuando elegís usarlas
+- enviarte notificaciones relacionadas con el servicio
+- detectar y solucionar problemas, prevenir fraudes y mejorar la estabilidad y el rendimiento
+- mejorar la experiencia y las funciones de la App
+- cumplir con obligaciones legales
 
-We may share information in these cases:
-- **Service providers:** vendors that help us run the App (e.g., hosting, analytics, crash reporting). They process data on our behalf and under our instructions.
-- **Legal requirements:** if required by law or to protect rights, safety, and security.
-- **Business transfers:** if the App is involved in a merger, acquisition, or asset sale.
+No usamos tus datos para publicidad de terceros ni los vendemos.
 
-## 4) Data retention
-We keep data only as long as needed to provide the App and for legitimate business purposes (such as troubleshooting and compliance), then delete or anonymize it where possible.
+## 3) Cómo compartimos la información
 
-## 5) Permissions
-The App may request device permissions to support features:
+No vendemos tus datos personales.
 
-- **Internet (INTERNET):** required for network access and online features.
-- **Microphone (RECORD_AUDIO):** required for voice/audio features.
-- **Location (ACCESS_COARSE_LOCATION / ACCESS_FINE_LOCATION):** required for location-based features.
-- **Bluetooth (BLUETOOTH_SCAN / BLUETOOTH_CONNECT):** required for discovering and connecting to Bluetooth devices.
+Podemos compartir información en estos casos:
+- **Proveedores de servicios:** terceros que nos ayudan a operar la App. Procesan los datos en nuestro nombre y según nuestras instrucciones. Entre ellos:
+  - **Google / Firebase** — notificaciones push.
+  - **Sentry** — diagnóstico de errores y rendimiento.
+  - Nuestros **servidores backend**, donde se procesan las solicitudes del asistente.
+- **Requerimientos legales:** si la ley lo exige o para proteger derechos, seguridad e integridad.
+- **Transferencias empresariales:** si la App participa en una fusión, adquisición o venta de activos.
 
-You can manage permissions in your device settings at any time. If you deny a permission, related features may not work.
+## 4) Conservación de datos
 
-## 6) Children’s privacy
-The App is not intended for children under **13** (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided personal information, contact us and we will delete it.
+Conservamos los datos solo el tiempo necesario para prestar el servicio y para fines legítimos del negocio (como soporte y cumplimiento), y luego los eliminamos o anonimizamos cuando es posible.
 
-## 7) Security
-We use reasonable administrative and technical measures to protect information. No method of transmission or storage is 100% secure.
+## 5) Permisos
 
-## 8) Your choices
-Depending on your location, you may have rights to access, update, or delete your information. You can also:
-- revoke permissions (microphone, location, Bluetooth) via device settings
-- stop using the App and uninstall it
+La App puede solicitar permisos del dispositivo para habilitar funciones:
 
-## 9) Contact us
-If you have questions about this Privacy Policy or data practices, contact:
+- **Internet:** necesario para el acceso a la red y las funciones en línea.
+- **Micrófono:** necesario para las funciones de voz/audio.
+- **Ubicación (aproximada / precisa):** necesario para las funciones basadas en ubicación.
+- **Bluetooth:** necesario para descubrir y conectar dispositivos Bluetooth.
+- **Notificaciones:** necesario para recibir notificaciones push.
 
-- **Email:** tek@ketlark.com  
-- **Developer / Company:** Ketlark
+Podés administrar los permisos desde la configuración de tu dispositivo en cualquier momento. Si denegás un permiso, las funciones relacionadas pueden no funcionar.
 
-## 10) Changes to this policy
-We may update this Privacy Policy from time to time. We will update the “Last updated” date and may notify you in the App if changes are material.
+## 6) Privacidad de menores
+
+La App no está dirigida a menores de **13 años** (o la edad mínima requerida en tu jurisdicción). No recolectamos información personal de menores de forma intencional. Si creés que un menor nos proporcionó información personal, contactanos y la eliminaremos.
+
+## 7) Seguridad
+
+Aplicamos medidas administrativas y técnicas razonables para proteger la información. Ningún método de transmisión o almacenamiento es 100% seguro.
+
+## 8) Tus opciones
+
+Según tu ubicación, podés tener derechos para acceder, actualizar o eliminar tu información. Además, podés:
+- revocar permisos (micrófono, ubicación, Bluetooth, notificaciones) desde la configuración del dispositivo
+- usar el **modo incógnito** de la App para mantener conversaciones privadas que se eliminan al desactivarlo
+- dejar de usar la App y desinstalarla
+
+## 9) Contacto
+
+Si tenés preguntas sobre esta Política de Privacidad o sobre nuestras prácticas de datos, contactanos:
+
+- **Correo:** tek@ketlark.com
+- **Desarrollador / Empresa:** Ketlark
+
+## 10) Cambios en esta política
+
+Podemos actualizar esta Política de Privacidad de vez en cuando. Actualizaremos la fecha de "Última actualización" y, si los cambios son importantes, podremos notificarte dentro de la App.
